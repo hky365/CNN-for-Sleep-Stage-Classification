@@ -29,11 +29,12 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 tf.random.set_random_seed(42)
 
 #mounting the drive to this notebook
+#Use only if you are using googlecolab or else skip this
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
 
 #loading the dataset
-raw = np.load('/content/drive/My Drive/data/Data_Raw_signals.pkl', allow_pickle=True)
+raw = np.load(Data_Raw_signals.pkl, allow_pickle=True)
 
 #Splitting our features and targets
 feat = raw[0]
@@ -190,7 +191,7 @@ plt.legend(['Training Loss', 'Validation Loss'], loc='upper right')
 plt.show()
 
 #Loading the test set
-test = np.load('/content/drive/My Drive/data/Test_Raw_signals_no_labels.pkl',allow_pickle=True)
+test = np.load(Test_Raw_signals_no_labels.pkl,allow_pickle=True)
 
 test_data = test[0]
 test_data.shape
