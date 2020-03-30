@@ -124,7 +124,7 @@ model.add(Dense(6, activation='softmax'))
 
 opt='adagrad'
 #Compiling the model
-model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
 
 history = model.fit(X_train, y_train_cat, epochs=100, batch_size=1054, verbose=1, 
                         validation_data=validation, callbacks=callbacks)
