@@ -1,10 +1,10 @@
 # CNN-for-Sleep-Stage-Classification-via-EEG-Signals
-DL-Challenge-EEG
+
 This code was used for the purposes of a group assignment (max 3 members) for the course in "Deep Learning" of the programme MSc Data Science/Cognitive Science and Artificial Intelligence at Tilburg University.
 The results of our predictions, and those of the other groups, were uploaded on Codalab. 
 This assignment was our first attempt at ML and DL and it was submitted on 23/03/2020, therefore it is reflective of our skills and knowledge at the time of submission.
 
-Dataset Description
+# Dataset Description
 The data-set consists of EEG sequences of 3000-time steps each and coming from two electrode locations on the head (Fpz-Cz and Pz-Oz) sampled at 100 Hz. 
 That means that each sample contains two signals of 3000 samples and that those samples correspond to 30 seconds of recording. The labels that come along with the data specify six stages labelling them with corresponding numbers.
 
