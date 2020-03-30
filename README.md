@@ -22,3 +22,8 @@ Note - Due to the university's policy and regulations, the dataset cannot be mad
 
 Evaluation Metric
 Classification Accuracy - Our team achieved an accuracy of 67.45% on the test set.
+
+Contributors of this code:
+Hamza Khan(me)
+Georgios Satyridis
+Isabella Dintinjana
