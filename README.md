@@ -1,4 +1,4 @@
-# CNN-for-Speech-Classification
+# CNN-for-Sleep-Stage-Classification-via-EEG-Signals
 DL-Challenge-EEG
 This code was used for the purposes of a group assignment (max 3 members) for the course in "Deep Learning" of the programme MSc Data Science/Cognitive Science and Artificial Intelligence at Tilburg University.
 The results of our predictions, and those of the other groups, were uploaded on Codalab. 
